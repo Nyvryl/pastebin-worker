@@ -43,3 +43,6 @@ CACHE_STATIC_PAGE_AGE = 7200
 
 # Cache-Control max-age for static pages
 CACHE_PASTE_AGE = 600
+[vars.BASIC_AUTH]
+user1 = "c908d2de-3c84-4b87-afc7-dbc99d3af7c1"
+user2 = "3b27665a-b43b-4732-b743-074d587dd967"
