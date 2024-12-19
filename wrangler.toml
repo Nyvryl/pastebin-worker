@@ -6,7 +6,7 @@ workers_dev = false
 main = "src/index.js"
 
 rules = [
-  { type = "Text", globs = [ "*/frontend/**", "*/doc/**" ], fallthrough = true }
+  { type = "Text", globs = [ "*/frontend/**", "*/doc/**" ]， fallthrough = true }
 ]
 
 #----------------------------------------
@@ -15,22 +15,22 @@ rules = [
 
 [[routes]]
 # Refer to https://developers.cloudflare.com/workers/wrangler/configuration/#routes
-pattern = "shz.al"
+pattern = "114514.one"
 custom_domain = true
 
 [[kv_namespaces]]
 binding = "PB"  # do not touch this
-id = "6cb5e7abcffd4d65b1a9a6dddd0936b4"  # id of your KV namespace
+id = "5e545605f31340dea39ed053e1b7db3d"  # id of your KV namespace
 
 [vars]
 # must be consistent with your routes
-BASE_URL = "https://shz.al"
+BASE_URL = "https://114514.one"
 
 # url to repo, displayed in the index page
 REPO = "https://github.com/SharzyL/pastebin-worker"
 
 # url to the favicon
-FAVICON = "https://sharzy.in/favicon-32x32.png"
+FAVICON = "https://i.111666.best/image/1hwafMU29q9pjtUqHpGQNn.png"
 
 # the name displayed in TOS
 TOS_MAINTAINER = "Sharzy"
